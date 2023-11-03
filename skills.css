@@ -1,0 +1,57 @@
+.skills {
+    padding: 3rem 0;
+}
+.skill-heading h2 {
+    font-size: 2rem;
+    line-height: 1;
+    color: #6b7280;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.skill-heading p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #48494b;
+}
+.skill-heading span {
+    color: rgb(5, 73, 5);
+    font-weight: 700;
+}
+
+.skill-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-row: repeat(2);
+    gap: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+
+.skill-box {
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
+    padding: 30px;
+}
+.skill-box h3 {
+    font-weight: 400;
+    color: #6b7280;
+    margin-bottom: 5px;
+}
+.skill-box p {
+    font-weight: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #48494b;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .skill-boxes {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+
